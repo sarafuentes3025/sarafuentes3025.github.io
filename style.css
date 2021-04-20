@@ -1,0 +1,246 @@
+
+body {
+  font-family: verdana;
+  background-color: #2b2e4a;
+}
+
+/* #hero {
+  height: 500px;
+} */
+
+
+/* 
+#hero .outer {
+  height: 500px;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+
+#hero .inner {
+  width: auto;
+  height: 500px;
+  background: linear-gradient(#12036985, #3e368185), url("./assets/img/lap.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .inner:hover {
+  height: 500px;
+  background: linear-gradient(#12036985, #5a539685), url("./assets/img/lap-blur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  position: absolute;
+  display: flex;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+  transition: all 1.2s ease-out 0.2s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.coment p{
+  color: #6f5792;
+  font-size: 10px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  font-weight: bold;
+  color: #6f5792;
+}
+
+.title{
+  color: #e84545;
+}
+.title1:hover {
+  transition: all 1.2s ease-out 0.2s;
+  transform: scale(1.1)translate(-50%, -50%);
+  
+}
+
+hero .title {
+  color: #f0e6ef;
+  font-size: 70px;
+
+}
+
+#intro {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+#intro .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#intro .text {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #9c89b8;
+}
+
+#intro .social-link {
+  margin-top: 15px;
+}
+
+#intro .social-link span {
+  font-size: 14px;
+}
+i {
+  color: #9c89b8;
+  width: 30px;
+  height: 30px;
+}
+span{
+  color: #9c89b8;
+}
+
+#gallery{
+  margin-top: 100px;
+  padding-left: 13%;
+  padding-right: 13%;
+  color: #9c89b8;
+}
+
+#gallery h1{
+  margin-bottom: 40px;
+}
+
+#gallery .project{
+  text-decoration: none;
+  color: #9c89b8;
+  border: transparent 1px double;
+}
+
+/* #gallery .project{
+  border:#6d6875 1px double;
+  
+} */
+#gallery .project:hover {
+  /* box-shadow: 1px 1px 20px rgb(70, 66, 66); */
+  border-color:#6d6875;
+  animation: bounce;
+  border-radius: 2%;
+  /* animation-duration: .5s; */
+}
+
+
+/* #gallery .project:active{
+  color: rgb(70, 66, 66);;
+}
+
+#gallery .project:link{
+  color: rgb(70, 66, 66);;
+}
+
+#gallery .project:hover{
+  color: rgb(70, 66, 66);;
+}
+
+#gallery .project:visited{
+  color: pink;
+} */
+
+#gallery .project .img {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5%;
+}
+
+#gallery .project .img-1{
+  background-image: url("./assets/img/spotify.jpeg");
+}
+
+
+/* .phothoBy {
+  color: #6f5792;
+  font-size: 10px !important;
+
+} */
+#gallery .project .img-2{
+  background-image: url("./assets/img/Netflix.jpeg");
+}
+
+#gallery .project .img-3{
+  background-image: url("");
+}
+
+
+
+#gallery .project .title { 
+  padding: 0;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#gallery .project .detail {
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Footer */
+#footer {
+  margin-top: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color:  #e84545;
+  color: #2b2e4a;
+  letter-spacing: .5px;
+}
+
+#footer .logo {
+  padding-left: 5%;
+  font-size: 16px;
+  font-weight: bold;
+}
+#footer .data {
+  padding-left: 5%;
+  font-size: 12px;
+}
+
+#footer .data a {
+  display: block;
+  margin-bottom: 5px;
+  color: #2b2e4a;
+  text-decoration: none;
+}
+
+#footer .social {
+  display: flex;
+  justify-content: center;
+}
+
+#footer .social a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2b2e4a;
+  text-decoration: none;
+}
+
